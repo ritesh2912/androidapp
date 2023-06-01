@@ -22,7 +22,7 @@ jobs:
           distribution: 'adopt'
           
       - name: Grant Permissions
-        run: chmod +x automated-build-android-app-with-github-action
+        run: chmod +x 
         
       - name: Build with Gradle
         run: ./gradlew build
