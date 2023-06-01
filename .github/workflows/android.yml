@@ -20,10 +20,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      
-      - name: Change the dir
-        run: cd automated-build-android-app-with-github-action
-      
+          
       - name: Grant Permissions
         run: chmod +x automated-build-android-app-with-github-action
         
