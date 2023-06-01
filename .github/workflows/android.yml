@@ -20,9 +20,9 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      
+
       - name: Grant execute permission for gradlew
-        run: chmod +x ./automated-build-android-app-with-github-action/gradlew
+        run: chmod +x automated-build-android-app-with-github-action/gradlew
 
       - name: Build with Gradle
-        run: ./path/to/your/gradlew build
+        run: ./automated-build-android-app-with-github-action/gradlew build
