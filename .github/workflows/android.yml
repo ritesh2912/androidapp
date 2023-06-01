@@ -22,7 +22,7 @@ jobs:
           distribution: 'adopt'
       
       - name: Change the dir
-        run: cd automated-build-android-app-with-github-action/
+        run: cd ./automated-build-android-app-with-github-action/
       
       - name: Grant Permissions
         run: chmod +x gradlew
